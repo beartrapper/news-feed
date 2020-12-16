@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+
+    <title>News Feed</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="assets/js/index.js"></script>
+  </head>
+  <body onload="fetchData()">
+    <header>
+      <nav>
+        <div class="first">
+          <span class="logo"></span>
+
+          Logo
+        </div>
+
+        <div class="fourth">
+          <span onclick="changeLanguage()" id="en" class="lang active-lang"
+            >English</span
+          >
+          <span onclick="changeLanguage()" id="mt" class="lang">Martian</span>
+        </div>
+      </nav>
+    </header>
+    <div class="post">
+      <div class="date">asd</div>
+      <div class="desc">
+        <h1>some heading</h1>
+        <p>
+          asdasdasdasdasdasdasdas dasdasdasdasdasdasdasdasdasdasdasd
+          asdasdasdasdasdasdasdasdasdasdasd
+        </p>
+        <p>By somebody</p>
+      </div>
+      <div>
+        <img
+          class="img"
+          src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+        />
+      </div>
+    </div>
+  </body>
+</html>

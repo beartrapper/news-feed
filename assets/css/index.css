@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+body {
+  margin: 0;
+}
+
+/* NAV CSS - START */
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
+  /* grid-gap: 1em; */
+  align-items: center;
+  text-align: center;
+  padding-top: 5vh;
+  border-bottom: 1px solid rgb(224, 223, 223);
+  padding-bottom: 5vh;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+}
+
+.first {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.third {
+  grid-column: 4;
+}
+
+.fourth {
+  grid-column: 5;
+}
+
+.lang {
+  color: rgb(51, 51, 51);
+  background-color: rgb(199, 198, 198);
+  padding: 10px;
+
+  border: 2px solid rgb(199, 198, 198);
+  border-right: none;
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+}
+
+.lang:hover {
+  cursor: pointer;
+}
+
+.active-lang {
+  background-color: white;
+  font-weight: 600;
+}
+/* NAV CSS - END */
+
+/* POST CSS - START */
+.post {
+  width: 80vw;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  display: inline-flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 1vw;
+  padding-right: 0;
+}
+
+.date {
+  color: rgb(168, 168, 168);
+  font-size: 20px;
+  padding-right: 300px;
+  padding-top: 40px;
+}
+
+.desc {
+  padding-right: 200px;
+  /* display: block; */
+  width: 20vw;
+  word-wrap: break-word;
+}
+
+.img {
+  max-width: 20vw;
+  padding-top: 30px;
+}
